@@ -10,7 +10,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
-class Angka : AppCompatActivity() {
+class Hari : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var kamusList: ArrayList<kamusModel>
@@ -24,11 +24,11 @@ class Angka : AppCompatActivity() {
         dbRef = FirebaseDatabase.getInstance().getReference("kamus")
         kamusList = arrayListOf()
 
-        getKamus("Angka")
+        getKamus("Hari")
 
         binding.rvKamus.apply {
             setHasFixedSize(true)
-            layoutManager = GridLayoutManager(this@Angka, 2)
+            layoutManager = GridLayoutManager(this@Hari, 2)
         }
     }
 

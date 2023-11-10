@@ -44,6 +44,6 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="36dp"
         android:layout_marginVertical="30dp"
-        tools:listitem="@layout/list_item_angka"/>
+        tools:listitem="@layout/list_item_hari"/>
 
 </LinearLayout>

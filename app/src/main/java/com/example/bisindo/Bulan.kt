@@ -32,7 +32,6 @@ class Bulan : AppCompatActivity() {
             layoutManager = GridLayoutManager(this@Bulan, 2)
         }
 
-
     }
 
     private fun getKamus(filter: String) {

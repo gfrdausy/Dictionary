@@ -16,7 +16,7 @@
         android:theme="@style/Theme.Bisindo"
         tools:targetApi="31">
         <activity
-            android:name=".Angka"
+            android:name=".Hari"
             android:exported="false" />
         <activity
             android:name=".Bulan"
